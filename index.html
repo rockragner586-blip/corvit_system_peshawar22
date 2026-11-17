@@ -1,0 +1,121 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Corvit Systems Peshawar – Professional IT Training</title>
+<style>
+:root{--navy:#0a1a3a;--blue:#1d6ff2;--sky:#e8f1ff;--ink:#16233f;--mut:#5b6b88;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--ink);line-height:1.6;background:#fff}
+section{padding:72px 20px}.w{max-width:1100px;margin:auto}h1,h2,h3{line-height:1.2;margin:0 0 .5em}h2{font-size:2rem}
+header{position:sticky;top:0;z-index:20;background:var(--navy);color:#fff}header .w{display:flex;align-items:center;justify-content:space-between;padding:14px 20px}
+nav a{margin-left:18px;color:#fff;text-decoration:none;opacity:.85}nav a:hover{opacity:1}#menu{display:none;background:none;border:0;color:#fff;font-size:1.6rem}
+.btn{display:inline-block;padding:11px 22px;border-radius:8px;border:2px solid var(--blue);background:var(--blue);color:#fff;font:inherit;font-weight:600;cursor:pointer;text-decoration:none;transition:transform .15s,box-shadow .15s}
+.btn:hover{transform:translateY(-2px);box-shadow:0 8px 18px rgba(29,111,242,.35)}.btn.o{background:transparent;color:var(--blue)}
+.btn:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid #8ab4ff;outline-offset:2px}
+.hero{background:linear-gradient(135deg,var(--navy),#12306b);color:#fff;padding:110px 20px}.hero h1{font-size:clamp(2.2rem,6vw,4rem);max-width:14em}.hero p{max-width:36em;opacity:.9;font-size:1.15rem}
+.hero .btn.o{color:#fff;border-color:#fff}.row{display:flex;gap:12px;flex-wrap:wrap;margin-top:14px}.hero .row{margin-top:28px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:22px}
+.card{background:#fff;border:1px solid #d9e4f7;border-radius:14px;padding:24px;box-shadow:0 6px 18px rgba(10,26,58,.07);transition:transform .2s,box-shadow .2s}
+.card:hover{transform:translateY(-6px) rotateX(2deg);box-shadow:0 16px 30px rgba(10,26,58,.15)}.ic{font-size:2.2rem}.card .btn{padding:8px 14px;font-size:.9rem}
+.alt{background:var(--sky)}form{display:grid;gap:12px;max-width:560px}input,select,textarea{width:100%;padding:11px 12px;border:1px solid #b9c9e6;border-radius:8px;font:inherit}
+.msg{padding:10px 12px;border-radius:8px;display:none}.msg.ok{display:block;background:#e3f7e8;color:#145a28}.msg.err{display:block;background:#fde8e8;color:#8a1c1c}
+.gal img{width:100%;height:190px;object-fit:cover;border-radius:12px}.empty{color:var(--mut)}iframe{width:100%;height:280px;border:0;border-radius:12px}
+footer{background:var(--navy);color:#cfd9ee;padding:36px 20px}dialog{border:0;border-radius:14px;max-width:480px;padding:26px}dialog::backdrop{background:rgba(10,26,58,.6)}
+#cb{position:fixed;right:20px;bottom:20px;z-index:50}#cbt{width:58px;height:58px;border-radius:50%;border:0;background:var(--blue);color:#fff;font-size:1.6rem;cursor:pointer;box-shadow:0 8px 20px rgba(0,0,0,.3)}
+#cbw{display:none;position:absolute;right:0;bottom:70px;width:min(360px,calc(100vw - 40px));height:480px;max-height:70vh;background:#fff;border-radius:14px;box-shadow:0 14px 40px rgba(0,0,0,.3);flex-direction:column;overflow:hidden}
+#cbw.open{display:flex}#cbh{background:var(--navy);color:#fff;padding:12px 16px;font-weight:600}#cbm{flex:1;overflow:auto;padding:12px;display:flex;flex-direction:column;gap:8px}
+.b{max-width:85%;padding:8px 12px;border-radius:12px;white-space:pre-wrap}.b.u{align-self:flex-end;background:var(--blue);color:#fff}.b.a{background:var(--sky)}.b.e{background:#fde8e8;color:#8a1c1c}
+#cbf{display:flex;gap:8px;padding:10px;border-top:1px solid #d9e4f7}#cbf input{flex:1}.chips{display:flex;gap:6px;flex-wrap:wrap}.chips button{border:1px solid var(--blue);background:#fff;color:var(--blue);border-radius:16px;padding:4px 10px;cursor:pointer;font:inherit;font-size:.85rem}
+@media(max-width:760px){#menu{display:block}nav{display:none;position:absolute;top:100%;left:0;right:0;background:var(--navy);padding:10px 20px}nav.open{display:block}nav a{display:block;margin:10px 0}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style></head><body>
+<header><div class="w"><strong>CORVIT SYSTEMS PESHAWAR</strong><button id="menu" aria-label="Menu">☰</button>
+<nav id="nav"><a href="#about">About</a><a href="#courses">Courses</a><a href="#services">Services</a><a href="#why">Why us</a><a href="#register">Register</a><a href="#gallery">Gallery</a><a href="#contact">Contact</a></nav></div></header>
+<section class="hero"><div class="w"><h1>Build Your Future with Professional IT Skills.</h1><p id="intro"></p>
+<div class="row"><a class="btn" href="#courses">Explore Courses</a><a class="btn o" href="#contact">Contact Us</a></div></div></section>
+<section id="about"><div class="w"><h2>About us</h2><p id="aboutT"></p><div class="grid"><div class="card"><h3>Mission</h3><p id="mission"></p></div><div class="card"><h3>Vision</h3><p id="vision"></p></div></div></div></section>
+<section id="courses" class="alt"><div class="w"><h2>Courses</h2><div class="grid" id="cg"></div></div></section>
+<section id="services"><div class="w"><h2>Services</h2><div class="grid"><div class="card"><h3>Professional IT training</h3></div><div class="card"><h3>Career development</h3></div><div class="card"><h3>Practical lab training</h3></div><div class="card"><h3>Technical skills development</h3></div><div class="card"><h3>Student guidance</h3></div></div></div></section>
+<section id="why" class="alt"><div class="w"><h2>Why choose us</h2><div class="grid"><div class="card"><h3>Experienced instructors</h3></div><div class="card"><h3>Practical learning</h3></div><div class="card"><h3>Modern IT labs</h3></div><div class="card"><h3>Career-focused courses</h3></div><div class="card"><h3>Student support</h3></div></div></div></section>
+<section id="register"><div class="w"><h2>Register for a course</h2><form id="rf" novalidate>
+<input name="name" placeholder="Full name" maxlength="100"><input name="email" type="email" placeholder="Email address"><input name="phone" type="tel" placeholder="Phone number">
+<select name="course" id="rc"><option value="">Select a course</option></select><textarea name="message" rows="3" placeholder="Message (optional)" maxlength="1000"></textarea>
+<button class="btn">Send registration</button><div class="msg" id="rm" role="status"></div></form></div></section>
+<section id="gallery" class="alt"><div class="w"><h2>Gallery</h2><div class="grid gal" id="gg"></div></div></section>
+<section id="contact"><div class="w"><h2>Contact us</h2><div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(280px,1fr))"><div><p id="ci"></p><div id="social"></div><div id="map"></div></div>
+<form id="cf" novalidate><input name="name" placeholder="Your name"><input name="email" type="email" placeholder="Email address"><textarea name="message" rows="4" placeholder="How can we help?"></textarea>
+<button class="btn">Send message</button><div class="msg" id="cm" role="status"></div></form></div></div></section>
+<footer><div class="w">© <span id="yr"></span> Corvit Systems Peshawar. All rights reserved.</div></footer>
+<dialog id="dlg"><h3 id="dt"></h3><div id="db"></div><p><button class="btn" id="dc">Close</button></p></dialog>
+<div id="cb"><div id="cbw" role="dialog" aria-label="Chat"><div id="cbh">Ask Corvit Systems</div><div id="cbm" aria-live="polite"></div>
+<form id="cbf"><input id="cbi" placeholder="Type your question…" maxlength="500" aria-label="Your question"><button class="btn">Send</button></form></div><button id="cbt" aria-label="Open chat">💬</button></div>
+<script>
+/* ===== EDIT THIS BLOCK: all site content and settings live here ===== */
+const CONFIG={
+ intro:"Corvit Systems Peshawar offers practical IT training.",
+ about:"",mission:"",vision:"",            // add your own text
+ address:"",phone:"",email:"",timings:"",whatsapp:"",   // fill in real details
+ mapEmbedUrl:"",                          // Google Maps > Share > Embed a map > copy the src URL
+ social:{Facebook:"",Instagram:"",LinkedIn:""},
+ gallery:[],                              // e.g. [{url:"images/lab.jpg",caption:"Computer lab"}] (real photos only)
+ courses:[ // add details / duration / fee only when verified by the institute
+  {title:"Cyber Security",desc:"Protect systems and data from modern threats.",icon:"🛡️"},
+  {title:"Networking (CCNA, CCNP)",desc:"Build and manage enterprise networks.",icon:"🌐"},
+  {title:"Python Programming",desc:"Learn programming from the basics to real projects.",icon:"🐍"},
+  {title:"Web Development",desc:"Design and build modern websites and web apps.",icon:"💻"},
+  {title:"Artificial Intelligence",desc:"Understand and apply AI and machine learning.",icon:"🤖"},
+  {title:"Cloud Computing",desc:"Deploy and manage services in the cloud.",icon:"☁️"},
+  {title:"Microsoft Office",desc:"Work productively with Word, Excel and PowerPoint.",icon:"📊"},
+  {title:"Graphic Designing",desc:"Create visuals for print and digital media.",icon:"🎨"},
+  {title:"Ethical Hacking",desc:"Find and fix security weaknesses legally.",icon:"🔐"}],
+ formEndpoint:"",   // URL that accepts JSON POST (e.g. a Formspree/Google Apps Script URL). Empty = falls back to email, if set above.
+ chatEndpoint:""    // OPTIONAL: your existing chatbot's URL. Must accept {message} and return {reply}. Never put API keys here.
+};
+/* ===== Site code ===== */
+const $=s=>document.querySelector(s),el=(t,c,x)=>{const e=document.createElement(t);if(c)e.className=c;if(x!=null)e.textContent=x;return e};
+const C=CONFIG,SOON="Not published yet. Please contact the institute for this information.";
+$('#yr').textContent=new Date().getFullYear();$('#menu').onclick=()=>$('#nav').classList.toggle('open');$('#nav').onclick=()=>$('#nav').classList.remove('open');
+$('#intro').textContent=C.intro;$('#aboutT').textContent=C.about||"Corvit Systems Peshawar is an IT training institute focused on practical skills.";
+$('#mission').textContent=C.mission||"Add your mission in CONFIG.";$('#vision').textContent=C.vision||"Add your vision in CONFIG.";
+const enroll=t=>{$('#rc').value=t;$('#register').scrollIntoView();document.querySelector('#rf [name=name]').focus()};
+C.courses.forEach(c=>{const k=el('div','card');k.append(el('div','ic',c.icon||'📘'),el('h3','',c.title),el('p','',c.desc||''));
+ const r=el('div','row'),b1=el('button','btn o','Course details'),b2=el('button','btn','Enroll now');
+ b1.onclick=()=>{$('#dt').textContent=c.title;const b=$('#db');b.replaceChildren();[['Details',c.details],['Duration',c.duration],['Fee',c.fee]].forEach(([l,v])=>b.append(el('p','',l+': '+(v||'Contact us for details'))));$('#dlg').showModal()};
+ b2.onclick=()=>enroll(c.title);r.append(b1,b2);k.append(r);$('#cg').append(k);const o=el('option','',c.title);o.value=c.title;$('#rc').append(o)});
+$('#dc').onclick=()=>$('#dlg').close();
+if(!C.gallery.length)$('#gg').append(el('p','empty','Photos coming soon.'));
+C.gallery.forEach(g=>{const i=el('img');i.src=g.url;i.alt=g.caption||'Corvit Systems Peshawar';i.loading='lazy';$('#gg').append(i)});
+[['Address',C.address],['Phone',C.phone],['Email',C.email],['Timings',C.timings]].forEach(([l,v])=>{if(v)$('#ci').append(el('span','',l+': '+v),el('br'))});
+if(!$('#ci').childNodes.length)$('#ci').textContent='Contact details will appear here once added in CONFIG.';
+Object.entries(C.social).forEach(([l,v])=>{if(/^https?:\/\//.test(v)){const a=el('a','',l);a.href=v;a.target='_blank';a.rel='noopener';a.style.marginRight='12px';$('#social').append(a)}});
+if(/^https:\/\/www\.google\.com\/maps\/embed/.test(C.mapEmbedUrl)){const f=el('iframe');f.src=C.mapEmbedUrl;f.title='Map';f.loading='lazy';$('#map').append(f)}
+const mail=/^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+function show(m,ok,t){m.className='msg '+(ok?'ok':'err');m.textContent=t}
+async function send(kind,d){
+ if(C.formEndpoint){const r=await fetch(C.formEndpoint,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({kind,...d})});if(!r.ok)throw new Error('The server rejected the form. Please try again.');return}
+ if(mail.test(C.email)){location.href='mailto:'+C.email+'?subject='+encodeURIComponent('Corvit '+kind)+'&body='+encodeURIComponent(Object.entries(d).map(([k,v])=>k+': '+v).join('\n'));return}
+ throw new Error('Forms are not connected yet. The site owner needs to set formEndpoint or email in CONFIG.')}
+[['#rf','registration','#rm','Thank you! Your registration has been sent.'],['#cf','message','#cm','Thank you! We will reply soon.']].forEach(([id,kind,mid,ok])=>$(id).onsubmit=async e=>{
+ e.preventDefault();const f=e.target,d=Object.fromEntries(new FormData(f)),m=$(mid);
+ if((d.name||'').trim().length<2)return show(m,0,'Enter your name.');if(!mail.test(d.email||''))return show(m,0,'Enter a valid email address.');
+ if(kind==='registration'){if(!/^[+\d][\d\s-]{6,19}$/.test(d.phone||''))return show(m,0,'Enter a valid phone number.');if(!d.course)return show(m,0,'Choose a course.')}
+ else if((d.message||'').trim().length<5)return show(m,0,'Enter a message.');
+ const b=f.querySelector('button');b.disabled=true;try{await send(kind,d);show(m,1,ok);f.reset()}catch(x){show(m,0,x.message)}b.disabled=false});
+/* ===== Chatbot ===== */
+const cm=$('#cbm');function bub(c,t){const b=el('div','b '+c,t);cm.append(b);cm.scrollTop=cm.scrollHeight;return b}
+const has=(q,...w)=>w.some(x=>q.includes(x));
+function local(q){q=q.toLowerCase();
+ const c=C.courses.find(c=>{const t=c.title.toLowerCase();return q.includes(t)||t.split(/[\s(),]+/).some(w=>w.length>3&&q.includes(w))});
+ if(c)return c.title+": "+c.desc+"\nDuration: "+(c.duration||SOON)+"\nFee: "+(c.fee||SOON)+"\nUse the Register section to enroll.";
+ if(has(q,'fee','price','cost'))return "Fees: "+SOON;
+ if(has(q,'timing','time','schedule','hours','open'))return "Timings: "+(C.timings||SOON);
+ if(has(q,'course','learn','teach','offer','program'))return "We offer:\n• "+C.courses.map(c=>c.title).join("\n• ");
+ if(has(q,'admission','register','enrol','enroll','join','apply'))return "To apply, fill in the Register section on this page with your name, email, phone and course.";
+ if(has(q,'address','where','location','contact','phone','email','call'))return [C.address&&"Address: "+C.address,C.phone&&"Phone: "+C.phone,C.email&&"Email: "+C.email].filter(Boolean).join("\n")||"Contact details: "+SOON;
+ if(has(q,'hello','hi','salam','hey'))return "Hello! Ask me about courses, admissions, timings or contact details.";
+ return "I can help with courses, admissions, fees, timings and contact details. Try one of those, or use the Contact section.";}
+async function reply(q){
+ if(C.chatEndpoint){try{const r=await fetch(C.chatEndpoint,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({message:q}),signal:AbortSignal.timeout(20000)});if(!r.ok)throw 0;const d=await r.json();if(d.reply)return d.reply}catch{return null}}
+ return local(q)}
+async function ask(q){bub('u',q);const w=bub('a','Typing…'),a=await reply(q);if(a===null){w.className='b e';w.textContent='The chatbot is unavailable right now. Please try again or use the Contact section.'}else w.textContent=a}
+$('#cbt').onclick=()=>{$('#cbw').classList.toggle('open');if(!cm.childNodes.length){bub('a','Hello! Ask me about our courses, admissions, timings or the institute.');
+ const ch=el('div','chips');['Courses','Admission','Timings','Contact'].forEach(t=>{const b=el('button','',t);b.onclick=()=>ask(t);ch.append(b)});cm.append(ch)}};
+$('#cbf').onsubmit=e=>{e.preventDefault();const i=$('#cbi'),t=i.value.trim();if(t){i.value='';ask(t)}};
+</script></body></html>
